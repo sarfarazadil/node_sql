@@ -4,6 +4,6 @@ const userController = require("../controllers/userController");
 
 router.post("/addSchool", userController.addSchool);
 router.get("/listSchools", userController.listSchools);
-router.get("/ping", userController.ping);
+router.get("/", userController.ping);
 
 module.exports = router;

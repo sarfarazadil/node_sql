@@ -1,8 +1,8 @@
 const School = require("../models/userModel");
 
 exports.ping = (req, res) => {
-  console.log("Ping received");
-  res.status(200).json({ message: "Pong" });
+  //   console.log("Ping received");
+  res.status(200).json({ message: "Server is running" });
 };
 
 // Add a new school
